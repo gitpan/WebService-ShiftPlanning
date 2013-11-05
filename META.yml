@@ -1,25 +1,25 @@
 ---
-abstract: 'Minimal ShiftPlanning API call support for Perl'
+abstract: unknown
 author:
-  - 'Craig Ringer <ringerc@cpan.org>'
+  - unknown
 build_requires:
-  Test::More: 0
+  ExtUtils::MakeMaker: 0
 configure_requires:
-  Module::Build: 0
+  ExtUtils::MakeMaker: 0
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4, CPAN::Meta::Converter version 2.120921'
-license: perl
+generated_by: 'ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120921'
+license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: WebService-ShiftPlanning
-provides:
-  WebService::ShiftPlanning:
-    file: lib/WebService/ShiftPlanning.pm
-    version: 0.01
+no_index:
+  directory:
+    - t
+    - inc
 requires:
+  JSON: 0
   LWP::Protocol::https: 6
   LWP::UserAgent: 6
-resources:
-  license: http://dev.perl.org/licenses/
-version: 0.01
+  Test::More: 0
+version: 0.02
